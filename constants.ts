@@ -2,36 +2,57 @@
 import { Project, Job, SkillData, TechCategory, EducationItem, Publication } from './types';
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/dhanvina",
-  linkedin: "https://www.linkedin.com/in/ndhanvina/",
-  email: "ndhanvina07@gmail.com"
+  github: "https://github.com/gurumaheswarreddy12",
+  linkedin: "https://www.linkedin.com/in/guru-maheswar-reddy-30a374320",
+  email: "gurumahesh478@gmail.com"
 };
+
 
 export const TECH_STACK: TechCategory[] = [
   {
-    category: "AI/ML CORE",
-    skills: ["Python", "PyTorch", "TensorFlow", "Scikit-Learn", "Pandas", "Numpy", "OpenCV", "YOLO", "XGBoost", "ONNX", "TFLite"]
+    category: "FRONTEND DEVELOPMENT",
+    skills: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Bootstrap",
+      "Tailwind CSS"
+    ]
   },
   {
-    category: "GEN AI & LLMs",
-    skills: ["OpenAI", "LangChain", "Hugging Face", "Ollama", "Gemini"]
+    category: "SHOPIFY & E-COMMERCE",
+    skills: [
+      "Shopify",
+      "Shopify Theme Development",
+      "Liquid",
+      "App Integration",
+      "Payment Gateway Integration"
+    ]
   },
   {
-    category: "BACKEND & DATABASE",
-    skills: ["Django", "Flask", "FastAPI", "PostgreSQL", "MySQL", "MongoDB"]
+    category: "BACKEND & APIs",
+    skills: [
+      "Java",
+      "REST API",
+      "SQL"
+    ]
   },
   {
-    category: "CLOUD & DEVOPS",
-    skills: ["AWS", "Azure", "GCP", "Docker", "GitHub Actions", "MLflow", "DVC", "Celery", "Redis", "Render", "Vercel"]
-  },
-  {
-    category: "MOBILE & TOOLS",
-    skills: ["Flutter", "Dart", "Figma", "UI/UX", "Jupyter", "Postman", "VS Code", "Git", "Streamlit"]
+    category: "TOOLS & DEPLOYMENT",
+    skills: [
+      "GitHub",
+      "Postman",
+      "Vercel",
+      "GoDaddy"
+    ]
   }
 ];
 
 export const ABOUT = {
-  intro: "Welcome! I'm Dhanvina, a passionate AI Engineer and Tech Visionary. My mission is to harness the power of technology to create smarter, scalable, and impactful solutions for the challenges of tomorrow. With a love for cutting-edge innovation and a strong belief in the transformative potential of AI, I specialize in building systems that bridge creativity and intelligence.",
+  intro: "Welcome! I'm Guru Maheshwar Reddy, a passionate Software Developer with 1+ year of hands-on experience in building and maintaining modern web applications. I focus on frontend development and Shopify-based solutions, creating responsive, user-friendly, and scalable web interfaces. With practical experience in UI design, Shopify theme customization, backend integration, and application deployment using GoDaddy hosting, I enjoy turning business requirements into reliable and impactful digital solutions."
+,
   bullets: [
     { title: "AI Enthusiast", desc: "Focused on shaping smarter algorithms and predictive models." },
     { title: "Software Architect", desc: "Designing modern, scalable backend systems for production." },
@@ -42,25 +63,33 @@ export const ABOUT = {
 
 export const EDUCATION: EducationItem[] = [
   {
-    institution: "Global Academy of Technology",
-    degree: "B.E. Computer Science & Engineering",
-    period: "JUL 2020 - JUL 2024",
-    grade: "9.2 CGPA",
-    desc: "Developed a robust technical foundation in Data Structures, Algorithms, Machine Learning, and Deep Learning. Collaborated with technical teams to drive innovative product development solutions.",
-    skills: ["Computer Vision", "Machine Learning", "Deep Learning", "Django", "Flutter", "Project Management"]
+    institution: "Sree Dattha Institute of Engineering and Science",
+    degree: "B.Tech in Computer Science and Engineering",
+    period: "JUN 2022 - MAY 2025",
+    grade: "7.16 CGPA",
+    desc: "Built a strong foundation in computer science including programming, database management systems, and software development. Gained hands-on experience through academic projects and practical training in frontend and backend technologies.",
+    skills: [
+      "Java",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "SQL",
+      "Object-Oriented Programming",
+      "DBMS"
+    ]
   },
   {
-    institution: "Sri Chaitanya College of Education",
-    degree: "Pre-University (Computer Science)",
-    period: "JUN 2018 - JUN 2020",
-    grade: "A Grade",
-    skills: ["Computer Science", "Mathematics", "Physics"]
-  },
-  {
-    institution: "Sindhi High School",
-    degree: "High School Education",
-    period: "Completed 2018",
-    grade: "Distinction"
+    institution: "Loyola Polytechnic (YSR College), Pulivendula, Cuddapah",
+    degree: "Diploma in Engineering",
+    period: "Completed",
+    grade: "Completed",
+    desc: "Completed diploma education with a focus on engineering fundamentals, practical learning, and technical problem-solving.",
+    skills: [
+      "Engineering Fundamentals",
+      "Basic Programming",
+      "Mathematics",
+      "Technical Problem Solving"
+    ]
   }
 ];
 
@@ -97,141 +126,118 @@ export const PUBLICATIONS: Publication[] = [
 
 export const PROJECTS: Project[] = [
   {
-    id: 'SYS_001',
-    title: 'CtrlFake',
-    description: 'AI-driven platform designed to detect deepfake content in videos and images. Achieved >90% accuracy using advanced deep learning architectures.',
-    tech: ['PyTorch', 'Computer Vision', 'Deep Learning'],
+    id: 'WEB_001',
+    title: 'ArshithFresh.com – E-Commerce Website',
+    description:
+      'Developed and maintained a responsive e-commerce website using HTML5, CSS3, JavaScript, and Shopify. Implemented UI/UX improvements, product filters, promotional banners, form validations, and performance optimizations to enhance user engagement and conversion.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'Shopify', 'Git', 'UI/UX'],
     metrics: [
-      { label: 'Accuracy', value: '>90%' },
-      { label: 'Type', value: 'Detection' }
+      { label: 'Platform', value: 'E-Commerce' },
+      { label: 'Focus', value: 'Frontend' }
     ],
     status: 'LIVE',
-    link: 'https://github.com/dhanvina/CtrlFake'
+    link: 'https://arshithfresh.com'
   },
+
   {
-    id: 'SYS_002',
-    title: 'MinutesAI',
-    description: 'Automated meeting minutes generator using LangChain & Ollama. Features modular OOP architecture, multi-format output (PDF/JSON), and CLI/Streamlit interfaces.',
-    tech: ['LangChain', 'Ollama', 'Streamlit'],
+    id: 'JAVA_001',
+    title: 'Employee Management System',
+    description:
+      'Built a backend application using Java and Spring Boot with RESTful architecture. Implemented CRUD operations, database integration, and SQL queries to manage employee data efficiently.',
+    tech: ['Java', 'Spring Boot', 'REST API', 'SQL', 'JDBC'],
     metrics: [
-      { label: 'Outputs', value: 'PDF/JSON' },
-      { label: 'Arch', value: 'Modular' }
+      { label: 'Architecture', value: 'Backend' },
+      { label: 'Stack', value: 'Java' }
+    ],
+    status: 'COMPLETED',
+    link: '#'
+  },
+
+  {
+    id: 'WEB_004',
+    title: 'ISU Fashion – Shopify Store',
+    description:
+      'Designed and customized a Shopify e-commerce store using Shopify Liquid, JavaScript, and HTML/CSS. Implemented responsive design, dynamic product sliders, advanced product filtering, and optimized navigation for improved performance and user experience.',
+    tech: ['Shopify Liquid', 'JavaScript', 'HTML', 'CSS', 'Responsive Design'],
+    metrics: [
+      { label: 'Platform', value: 'Shopify' },
+      { label: 'Domain', value: 'Fashion E-Commerce' }
     ],
     status: 'LIVE',
-    link: 'https://github.com/dhanvina/MinutesAI'
-  },
-  {
-    id: 'SYS_003',
-    title: 'CtrlThreats',
-    description: 'Cybersecurity solution for phishing detection and automated vulnerability scanning using NLP and ML models. Reduced manual analysis by 60%.',
-    tech: ['NLP', 'MLOps', 'Scikit-learn'],
-    metrics: [
-      { label: 'Efficiency', value: '+60%' },
-      { label: 'Domain', value: 'Security' }
-    ],
-    status: 'LIVE',
-    link: 'https://github.com/dhanvina/CtrlThreats'
-  },
-  {
-    id: 'SYS_004',
-    title: 'SmartMark',
-    description: 'Deep learning solution to autograde handwritten answer sheets using CNNs and OCR. Trained EfficientNet variants for character recognition.',
-    tech: ['CNNs', 'OCR', 'EfficientNet'],
-    metrics: [
-      { label: 'Time Saved', value: '70%' },
-      { label: 'Task', value: 'Vision' }
-    ],
-    status: 'ARCHIVED',
-    link: 'https://github.com/dhanvina/SmartMark'
-  },
-  {
-    id: 'SYS_005',
-    title: 'Phishing Detection',
-    description: 'End-to-end platform using Django, Celery, and PostgreSQL. Engineered 34+ feature extraction pipeline with ensemble ML classifiers (XGBoost, Random Forest).',
-    tech: ['Django', 'XGBoost', 'Docker'],
-    metrics: [
-      { label: 'Features', value: '34+' },
-      { label: 'CI/CD', value: 'Docker' }
-    ],
-    status: 'LIVE',
-    link: 'https://github.com/dhanvina/Phishing-Detection'
+    link: 'https://isufashion.com/'
   }
 ];
 
 export const EXPERIENCE: Job[] = [
   {
-    role: 'Chief AI Officer',
-    company: 'F9 Cybrisk Tech Private Limited',
-    period: 'MAY 2024 - PRESENT',
+    role: 'Software Developer',
+    company: 'Arshith Fresh India Pvt Ltd',
+    period: 'APR 2025 - PRESENT',
     description: [
-      "Designed and deployed CtrlFake (ctrlfake.com), an AI-driven platform for deepfake detection achieving >90% accuracy.",
-      "Directed the development of CtrlThreats (ctrlthreats.com), a cybersecurity NLP/ML solution that reduced manual threat review by 60%.",
-      "Architected production-grade MLOps pipelines utilizing Docker, MLflow, and CI/CD workflows for automated model training and deployment.",
-      "Led engineering efforts on multi-class object detection systems using specialized YOLO models."
+      'Designed, developed, and maintained a production e-commerce website using HTML5, CSS3, JavaScript, and Shopify with a strong focus on responsive UI/UX.',
+      'Customized Shopify themes, implemented product listings, promotional banners, and seasonal campaigns to support business and marketing goals.',
+      'Built interactive UI components such as sliders, dropdowns, product filters, and animated sections to enhance user engagement and navigation.',
+      'Integrated JavaScript-based form validations and dynamic user interactions to improve data accuracy and overall user experience.',
+      'Managed website hosting, deployment, and domain configuration using GoDaddy.',
+      'Maintained clean, version-controlled codebases using Git and collaborated with cross-functional teams for timely releases.'
     ],
-    stack: ['PyTorch', 'MLOps', 'Docker', 'GenAI', 'YOLO', 'AWS']
+    stack: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Shopify',
+      'Shopify Liquid',
+      'UI/UX',
+      'Git',
+      'GoDaddy'
+    ]
   },
+
   {
-    role: 'App Developer Intern',
-    company: 'Geekonomy Technology',
+    role: 'Frontend Developer Intern',
+    company: 'Suntech Solutions',
+    period: 'DEC 2024 - FEB 2025',
+    description: [
+      'Worked on the development and maintenance of an e-commerce website, focusing on frontend development and UI enhancements.',
+      'Implemented new website features and UI updates based on client and business requirements.',
+      'Created reusable UI components and optimized CSS structures for better maintainability.',
+      'Assisted in debugging, performance optimization, and deployment of website updates.'
+    ],
+    stack: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'Shopify',
+      'Git'
+    ]
+  },
+
+  {
+    role: 'Java Full Stack Intern',
+    company: 'JSpiders',
     period: 'APR 2024 - JUN 2024',
     description: [
-      "Designed a cross-platform criminal profiling dashboard in Flutter, integrating 20+ APIs from government databases.",
-      "Automated complex case workflows, successfully reducing manual data entry overhead by 80%.",
-      "Optimized real-time data pipelines ensuring smooth synchronization between disparate law enforcement systems."
+      'Worked on real-time Java-based projects with a focus on backend development using Spring Boot.',
+      'Implemented CRUD operations, RESTful APIs, and SQL queries for database-driven applications.',
+      'Gained hands-on experience with Core Java, OOPS, JDBC, Servlets, JSP, Spring MVC, and SQL.',
+      'Developed a backend-focused Employee Management System as part of practical training.'
     ],
-    stack: ['Flutter', 'Dart', 'REST APIs', 'Data Pipelines']
-  },
-  {
-    role: 'Team Lead & Backend Developer',
-    company: 'Global Academy of Technology (Incubation)',
-    period: 'JUN 2023 - JAN 2024',
-    description: [
-      "Led a team in developing a comprehensive inventory & asset management system using Django.",
-      "Implemented Role-Based Access Control (RBAC) and JWT authentication for secure, fine-grained access management.",
-      "Streamlined the tracking of software and hardware assets, significantly improving operational utilization."
-    ],
-    stack: ['Django', 'Python', 'PostgreSQL', 'JWT', 'RBAC']
-  },
-  {
-    role: 'App Developer Intern',
-    company: 'DezyNation',
-    period: 'MAR 2023 - APR 2023',
-    description: [
-      "Led the integration of 25+ APIs into a finance money transfer Flutter application, ensuring robust data validation.",
-      "Implemented secure authentication methods including OTP and MPIN, enhancing user trust and app reliability.",
-      "Directed rigorous live testing procedures to ensure API responsiveness and seamless user experience."
-    ],
-    stack: ['Flutter', 'Dart', 'REST APIs', 'Mobile Security']
-  },
-  {
-    role: 'Web Developer Intern',
-    company: 'Varuth',
-    period: 'OCT 2022 - NOV 2022',
-    description: [
-      "Optimized website design workflows using Figma, increasing team productivity and design consistency.",
-      "Conducted user research and implemented design improvements impacting 500+ international visitors.",
-      "Employed data-driven insights to refine content strategy and enhance overall user engagement."
-    ],
-    stack: ['Figma', 'HTML5', 'CSS', 'UI/UX']
-  },
-  {
-    role: 'ML Summer School Mentee',
-    company: 'Amazon',
-    period: 'JUL 2022',
-    description: [
-      "Selected for Amazon's intensive ML Summer School focused on advanced AI topics.",
-      "Gained expertise in Deep Neural Networks, Probabilistic Graphical Models, Reinforcement Learning, and Causal Inference."
-    ],
-    stack: ['Deep Learning', 'Reinforcement Learning', 'Math']
+    stack: [
+      'Java',
+      'Spring Boot',
+      'Spring MVC',
+      'SQL',
+      'JDBC',
+      'REST API'
+    ]
   }
 ];
 
 export const SKILL_DATA: SkillData[] = [
-  { subject: 'Deep Learning', A: 145, fullMark: 150 },
-  { subject: 'LLMs & GenAI', A: 140, fullMark: 150 },
-  { subject: 'MLOps/DevOps', A: 135, fullMark: 150 },
-  { subject: 'Python/Backend', A: 150, fullMark: 150 },
-  { subject: 'Cloud (AWS/GCP)', A: 120, fullMark: 150 },
-  { subject: 'Mobile (Flutter)', A: 110, fullMark: 150 },
+  { subject: 'Frontend Development (HTML/CSS/JS/React.JS)', A: 140, fullMark: 150 },
+  { subject: 'Shopify & Theme Development', A: 145, fullMark: 150 },
+  { subject: 'UI/UX & Responsive Design', A: 135, fullMark: 150 },
+  { subject: 'Java & Spring Boot', A: 120, fullMark: 150 },
+  { subject: 'REST APIs & SQL', A: 125, fullMark: 150 },
+  { subject: 'Version Control & Deployment', A: 130, fullMark: 150 }
 ];

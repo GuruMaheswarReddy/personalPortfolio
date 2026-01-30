@@ -13,35 +13,38 @@ const About: React.FC = () => {
           <h2 className="text-2xl font-bold text-white tracking-tight">ABOUT_PROFILE</h2>
         </div>
       </RevealOnScroll>
-      
+
       <div className="flex flex-col md:flex-row gap-8 items-start">
         {/* Image Column - Compact & Fixed Height */}
         <div className="w-full md:w-64 flex-shrink-0 relative group mx-auto md:mx-0">
           <RevealOnScroll delay={200}>
             {/* Glitch/Glow Effect Container */}
             <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-neutral-800 rounded-sm blur opacity-20 group-hover:opacity-60 transition duration-500"></div>
-            
+
             <div className="relative h-64 w-full md:w-64 bg-black border border-neutral-800 overflow-hidden group-hover:scale-[1.02] transition-transform duration-500">
               {/* Corner Accents */}
               <div className="absolute top-0 left-0 w-3 h-3 border-l-2 border-t-2 border-green-500 z-20 transition-all duration-300 group-hover:w-6 group-hover:h-6"></div>
               <div className="absolute bottom-0 right-0 w-3 h-3 border-r-2 border-b-2 border-green-500 z-20 transition-all duration-300 group-hover:w-6 group-hover:h-6"></div>
-              
+
               {/* Profile Image - Using GitHub Avatar as reliable fallback */}
-              <img 
-                src="https://github.com/dhanvina.png" 
-                alt="Dhanvina" 
+              <img
+                src="/portfolio/photo.jpeg"
+                alt="Maheshwar"
                 className="w-full h-full object-cover filter grayscale contrast-125 hover:contrast-100 hover:grayscale-0 transition-all duration-700"
                 onError={(e) => {
-                  // Fallback if GitHub image fails
-                  (e.target as HTMLImageElement).src = "https://ui-avatars.com/api/?name=Dhanvina&background=0F1624&color=fff&size=512";
+                  (e.target as HTMLImageElement).src =
+                    "https://ui-avatars.com/api/?name=Maheshwar&background=0F1624&color=fff&size=512";
                 }}
               />
-              
+
+
+
+
               {/* Overlay Data */}
               <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-3 z-10">
                 <div className="flex items-center gap-2 mb-1">
                   <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="font-mono text-green-500 text-[10px] tracking-widest">ID: DHANVINA</span>
+                  <span className="font-mono text-green-500 text-[10px] tracking-widest">ID: Maheshwar</span>
                 </div>
               </div>
 
@@ -60,7 +63,7 @@ const About: React.FC = () => {
               </p>
             </div>
           </RevealOnScroll>
-          
+
           {/* Compact Bullet Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {ABOUT.bullets.map((item, i) => (
@@ -76,11 +79,11 @@ const About: React.FC = () => {
             ))}
           </div>
 
-           {/* Social Connect */}
-           <RevealOnScroll delay={800}>
-            <a 
-              href={SOCIAL_LINKS.linkedin} 
-              target="_blank" 
+          {/* Social Connect */}
+          <RevealOnScroll delay={800}>
+            <a
+              href={SOCIAL_LINKS.linkedin}
+              target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-xs font-bold text-white bg-blue-600/10 border border-blue-600/30 px-4 py-2 hover:bg-blue-600/20 hover:border-blue-500 transition-all"
             >

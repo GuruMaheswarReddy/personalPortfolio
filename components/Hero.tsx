@@ -185,7 +185,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
           <span className="text-[10px] sm:text-xs font-mono tracking-widest text-neutral-400">
-            SYSTEM_ONLINE <span className="text-neutral-600 mx-2">||</span> AI_ENGINEER
+            SYSTEM_ONLINE <span className="text-neutral-600 mx-2">||</span> Software Developer
           </span>
         </div>
 
@@ -198,14 +198,14 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tighter leading-none relative group cursor-default">
              {/* Name Scramble */}
-             <ScrambleText text="DHANVINA" className="block" delay={1200} />
+             <ScrambleText text="Guru Maheshwar Reddy" className="block" delay={1200} />
              
              {/* Glitch clone behind (visible on hover) */}
              <span className="absolute top-0 left-0 -z-10 opacity-0 group-hover:opacity-50 text-green-500 animate-glitch translate-x-[2px]">
-                DHANVINA
+                Guru Maheshwar Reddy
              </span>
              <span className="absolute top-0 left-0 -z-10 opacity-0 group-hover:opacity-50 text-red-500 animate-glitch translate-x-[-2px]" style={{ animationDelay: '0.1s'}}>
-                DHANVINA
+               Guru Maheshwar Reddy
              </span>
           </h1>
         </div>
@@ -215,16 +215,30 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           
           {/* Bio Text */}
           <div className="md:col-span-7 relative pl-4 md:pl-6 border-l-2 border-neutral-800">
-             <p className="text-base sm:text-lg md:text-xl text-neutral-400 font-light leading-relaxed">
-                I build <span className="text-white font-medium">AI-powered systems</span> with robust <span className="text-white font-medium">backend architecture</span>, optimized for <span className="text-white font-medium">production</span>.
-             </p>
-             <p className="mt-3 text-sm md:text-base text-neutral-500 font-mono leading-relaxed">
-                Welcome! I'm Dhanvina, a passionate AI Engineer and Tech Visionary. My mission is to harness the power of technology to create smarter, scalable, and impactful solutions.
-             </p>
-             <p className="mt-3 text-xs sm:text-sm text-green-500 font-mono">
-               Current Focus: Building Next-Gen AI Agents & Advancing GenAI Systems.
-             </p>
-          </div>
+  <p className="text-base sm:text-lg md:text-xl text-neutral-400 font-light leading-relaxed">
+    I am a <span className="text-white font-medium">Software Developer</span> with
+    <span className="text-white font-medium"> 1+ year of hands-on experience</span> in
+    building and maintaining modern web applications. I specialize in
+    <span className="text-white font-medium"> frontend development</span> and
+    <span className="text-white font-medium"> Shopify-based solutions</span>, focusing on
+    creating <span className="text-white font-medium">responsive</span>,
+    <span className="text-white font-medium"> user-friendly</span>, and
+    <span className="text-white font-medium"> scalable web interfaces</span>.
+  </p>
+
+  <p className="mt-3 text-sm md:text-base text-neutral-500 font-mono leading-relaxed">
+    Welcome! I’m <span className="text-white">Guru Maheshwar Reddy</span>, a passionate
+    Software Developer with practical experience in designing clean user interfaces,
+    customizing Shopify themes, and integrating backend connectivity to support business
+    needs.
+  </p>
+
+  <p className="mt-3 text-xs sm:text-sm text-green-500 font-mono">
+    Current Focus: Building robust web interfaces, enhancing user experience, managing
+    Shopify stores, and deploying applications using GoDaddy hosting.
+  </p>
+</div>
+
 
           {/* Quick Stats Box */}
           <div className="md:col-span-5 flex flex-col justify-end">
@@ -241,7 +255,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                     <Eye className="w-3 h-3 sm:w-4 sm:h-4 group-hover:text-green-500 transition-colors" />
                     Experience
                   </div>
-                  <div className="text-base sm:text-xl font-bold text-white">Lead Engineer</div>
+                  <div className="text-base sm:text-xl font-bold text-white">Software Developer</div>
                 </div>
              </div>
           </div>
@@ -256,15 +270,6 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
             ACCESS_PROJECTS
             <ChevronRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
           </button>
-          
-          <button 
-            onClick={() => onNavigate('ai_lab')}
-            className="group border border-neutral-700 text-white px-6 py-3 font-bold text-xs sm:text-sm tracking-wide hover:border-white hover:bg-white/5 transition-all flex items-center justify-center gap-2 backdrop-blur-md w-full sm:w-auto"
-          >
-            <Command className="w-4 h-4 text-neutral-500 group-hover:text-white transition-colors" />
-            INITIALIZE_CHAT
-          </button>
-
            <a 
             href={SOCIAL_LINKS.linkedin}
             target="_blank"

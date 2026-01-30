@@ -49,7 +49,7 @@ const App: React.FC = () => {
 
   if (!mounted) return <div className="bg-black h-screen w-full" />;
 
-  const navItems = ['HOME', 'ABOUT', 'PROJECTS', 'SKILLS', 'EXPERIENCE', 'EDUCATION', 'RESEARCH', 'AI_STUDIO', 'MLOPS', 'AI_LAB'];
+  const navItems = ['HOME', 'ABOUT', 'PROJECTS', 'SKILLS', 'EXPERIENCE', 'EDUCATION'];
 
   return (
     <div className="min-h-screen bg-black text-neutral-200 font-mono relative">
@@ -62,7 +62,7 @@ const App: React.FC = () => {
           <div className="flex items-center justify-between h-14 md:h-16">
             <div className="flex items-center gap-2 cursor-pointer group" onClick={() => scrollTo('home')}>
               <div className="w-3 h-3 bg-white animate-pulse group-hover:bg-green-500 transition-colors" />
-              <span className="font-bold tracking-wider text-white group-hover:text-green-500 transition-colors">N_DHANVINA</span>
+              <span className="font-bold tracking-wider text-white group-hover:text-green-500 transition-colors">Endla Guru Maheshwar Reddy</span>
             </div>
             
             {/* Desktop Menu */}
@@ -252,29 +252,29 @@ const App: React.FC = () => {
           </RevealOnScroll>
         </section>
 
-        {/* Section: Research / Publications */}
+        {/* Section: Research / Publications
         <section id="research" className="py-12 border-b border-neutral-900">
           <RevealOnScroll>
             <Publications />
           </RevealOnScroll>
-        </section>
-        
+        </section> */}
+{/*         
         {/* Section: AI Training Studio */}
-        <section id="ai_studio" className="py-12 border-b border-neutral-900 bg-neutral-950/30">
+        {/* <section id="ai_studio" className="py-12 border-b border-neutral-900 bg-neutral-950/30">
            <RevealOnScroll>
              <AITrainingStudio />
            </RevealOnScroll>
-        </section>
+        </section> */}
 
         {/* Section: MLOps Pipeline */}
-        <section id="mlops" className="py-12 border-b border-neutral-900">
+        {/* <section id="mlops" className="py-12 border-b border-neutral-900">
            <RevealOnScroll>
              <MLOpsPipeline />
            </RevealOnScroll>
-        </section>
+        </section> */}
 
         {/* Section: AI Lab / Neural Operations Center */}
-        <section id="ai_lab" className="py-12 border-b border-neutral-900 bg-neutral-950/50">
+        {/* <section id="ai_lab" className="py-12 border-b border-neutral-900 bg-neutral-950/50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
              <RevealOnScroll>
                <div className="flex items-center gap-4 mb-6">
@@ -286,21 +286,43 @@ const App: React.FC = () => {
               </div>
             </RevealOnScroll>
           </div>
-        </section>
+        </section> */} 
 
         {/* Footer */}
         <footer className="py-8 bg-black border-t border-neutral-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <div className="flex flex-col gap-1">
-              <span className="font-bold text-white tracking-wider hover:text-green-500 transition-colors cursor-default text-sm">N_DHANVINA</span>
-              <span className="text-[10px] text-neutral-600">LEAD AI ENGINEER // {SOCIAL_LINKS.email}</span>
+              <span className="font-bold text-white tracking-wider hover:text-green-500 transition-colors cursor-default text-sm">Guru Maheshwar Reddy</span>
+              <span className="text-[10px] text-neutral-600">Software Developer // {SOCIAL_LINKS.email}</span>
             </div>
             
             <div className="flex gap-6">
-              <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"><Github className="w-5 h-5" /></a>
-              <a href={SOCIAL_LINKS.linkedin} target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"><Linkedin className="w-5 h-5" /></a>
-              <a href={`mailto:${SOCIAL_LINKS.email}`} className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"><Mail className="w-5 h-5" /></a>
-            </div>
+  <a
+    href={SOCIAL_LINKS.github}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"
+  >
+    <Github className="w-5 h-5" />
+  </a>
+
+  <a
+    href={SOCIAL_LINKS.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"
+  >
+    <Linkedin className="w-5 h-5" />
+  </a>
+
+  <a
+    href={`mailto:${SOCIAL_LINKS.email}`}
+    className="text-neutral-500 hover:text-white transform hover:scale-110 transition-all"
+  >
+    <Mail className="w-5 h-5" />
+  </a>
+</div>
+
           </div>
         </footer>
       </main>
