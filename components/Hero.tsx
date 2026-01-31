@@ -226,13 +226,6 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
     <span className="text-white font-medium"> scalable web interfaces</span>.
   </p>
 
-  <p className="mt-3 text-sm md:text-base text-neutral-500 font-mono leading-relaxed">
-    Welcome! I’m <span className="text-white">Guru Maheshwar Reddy</span>, a passionate
-    Software Developer with practical experience in designing clean user interfaces,
-    customizing Shopify themes, and integrating backend connectivity to support business
-    needs.
-  </p>
-
   <p className="mt-3 text-xs sm:text-sm text-green-500 font-mono">
     Current Focus: Building robust web interfaces, enhancing user experience, managing
     Shopify stores, and deploying applications using GoDaddy hosting.
