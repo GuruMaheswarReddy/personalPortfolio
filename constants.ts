@@ -2,7 +2,7 @@
 import { Project, Job, SkillData, TechCategory, EducationItem, Publication } from './types';
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com/gurumaheswarreddy12",
+  github: "https://github.com/GuruMaheswarReddy",
   linkedin: "https://www.linkedin.com/in/guru-maheswar-reddy-30a374320",
   email: "gurumahesh478@gmail.com"
 };
