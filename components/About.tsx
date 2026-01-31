@@ -28,7 +28,7 @@ const About: React.FC = () => {
 
               {/* Profile Image - Using GitHub Avatar as reliable fallback */}
               <img
-                src="/portfolio/photo.jpeg"
+                src="/photo.jpeg"
                 alt="Maheshwar"
                 className="w-full h-full object-cover filter grayscale contrast-125 hover:contrast-100 hover:grayscale-0 transition-all duration-700"
                 onError={(e) => {
