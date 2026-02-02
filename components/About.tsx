@@ -44,7 +44,7 @@ const About: React.FC = () => {
               <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black via-black/80 to-transparent p-3 z-10">
                 <div className="flex items-center gap-2 mb-1">
                   <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="font-mono text-green-500 text-[10px] tracking-widest">ID: Maheshwar</span>
+                  <span className="font-mono text-green-500 text-[10px] tracking-widest">ID: Maheswar</span>
                 </div>
               </div>
 
