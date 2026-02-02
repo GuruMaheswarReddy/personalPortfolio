@@ -62,7 +62,7 @@ const App: React.FC = () => {
           <div className="flex items-center justify-between h-14 md:h-16">
             <div className="flex items-center gap-2 cursor-pointer group" onClick={() => scrollTo('home')}>
               <div className="w-3 h-3 bg-white animate-pulse group-hover:bg-green-500 transition-colors" />
-              <span className="font-bold tracking-wider text-white group-hover:text-green-500 transition-colors">Endla Guru Maheshwar Reddy</span>
+              <span className="font-bold tracking-wider text-white group-hover:text-green-500 transition-colors">Endla Guru Maheswar Reddy</span>
             </div>
             
             {/* Desktop Menu */}
@@ -292,7 +292,7 @@ const App: React.FC = () => {
         <footer className="py-8 bg-black border-t border-neutral-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <div className="flex flex-col gap-1">
-              <span className="font-bold text-white tracking-wider hover:text-green-500 transition-colors cursor-default text-sm">Guru Maheshwar Reddy</span>
+              <span className="font-bold text-white tracking-wider hover:text-green-500 transition-colors cursor-default text-sm">Guru Maheswar Reddy</span>
               <span className="text-[10px] text-neutral-600">Software Developer // {SOCIAL_LINKS.email}</span>
             </div>
             
