@@ -51,7 +51,7 @@ export const TECH_STACK: TechCategory[] = [
 ];
 
 export const ABOUT = {
-  intro: "Welcome! I'm Guru Maheshwar Reddy, a passionate Software Developer with 1+ year of hands-on experience in building and maintaining modern web applications. I focus on frontend development and Shopify-based solutions, creating responsive, user-friendly, and scalable web interfaces. With practical experience in UI design, Shopify theme customization, backend integration, and application deployment using GoDaddy hosting, I enjoy turning business requirements into reliable and impactful digital solutions."
+  intro: "Welcome! I'm Guru Maheswar Reddy, a passionate Software Developer with 1+ year of hands-on experience in building and maintaining modern web applications. I focus on frontend development and Shopify-based solutions, creating responsive, user-friendly, and scalable web interfaces. With practical experience in UI design, Shopify theme customization, backend integration, and application deployment using GoDaddy hosting, I enjoy turning business requirements into reliable and impactful digital solutions."
 ,
   bullets: [
     { title: "AI Enthusiast", desc: "Focused on shaping smarter algorithms and predictive models." },
@@ -81,7 +81,7 @@ export const EDUCATION: EducationItem[] = [
   {
     institution: "Loyola Polytechnic (YSR College), Pulivendula, Cuddapah",
     degree: "Diploma in Engineering",
-    period: "Completed",
+    period: "JUN 2019 - May 2022",
     grade: "Completed",
     desc: "Completed diploma education with a focus on engineering fundamentals, practical learning, and technical problem-solving.",
     skills: [
