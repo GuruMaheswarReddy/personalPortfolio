@@ -198,14 +198,14 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-white tracking-tighter leading-none relative group cursor-default">
              {/* Name Scramble */}
-             <ScrambleText text="Guru Maheshwar Reddy" className="block" delay={1200} />
+             <ScrambleText text="Guru Maheswar Reddy" className="block" delay={1200} />
              
              {/* Glitch clone behind (visible on hover) */}
              <span className="absolute top-0 left-0 -z-10 opacity-0 group-hover:opacity-50 text-green-500 animate-glitch translate-x-[2px]">
-                Guru Maheshwar Reddy
+                Guru Maheswar Reddy
              </span>
              <span className="absolute top-0 left-0 -z-10 opacity-0 group-hover:opacity-50 text-red-500 animate-glitch translate-x-[-2px]" style={{ animationDelay: '0.1s'}}>
-               Guru Maheshwar Reddy
+               Guru Maheswar Reddy
              </span>
           </h1>
         </div>
